@@ -6,12 +6,12 @@
 # Input: 5
 # Output: yes
 
-def is_prime(number):
-    for i in range(2, int(number ** 0.5) + 1):
-        if number % i == 0:
-            return False
-    return True
-print(is_prime(int(input('Введите число: '))))
+# def is_prime(number):
+#     for i in range(2, int(number ** 0.5) + 1):
+#         if number % i == 0:
+#             return False
+#     return True
+# print(is_prime(int(input('Введите число: '))))
 
 # Задача №37.
 # Дано натуральное число N и
@@ -23,6 +23,15 @@ print(is_prime(int(input('Введите число: '))))
 # (даже для ввода и вывода).
 # Input: 2 -> 3 4
 # Output: 4 3
+
+# def rev(n):
+#     if n > 0:
+#         rev (n-1)
+#         print(k[-n], end=" ")
+#
+# n = int(input("Введите число: "))
+# k = list(map(int, input("Введите числа через пробел: ").split()))
+# rev(n)
 
 
 # Задача 26: Напишите программу, которая на вход принимает
